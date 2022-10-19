@@ -91,3 +91,33 @@ p {
   cursor: pointer;
   border-radius: 4px;
 }
+.textstart {
+  text-align: left;
+}
+.mt5 {
+  margin-top: 3rem;
+}
+
+@media (max-width: 576px) {
+  p,
+  h2 {
+    text-align: center !important;
+  }
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+  .linkApp {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .mt5 {
+    margin-top: 0px;
+  }
+}
